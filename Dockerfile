@@ -21,8 +21,5 @@ ADD search-module.xml					search-module.xml
 # ADD health check script
 ADD healthcheck.sh                      healthcheck.sh
 
-# BROWSER
-# HUB_HOST
-# MODULE
 
 ENTRYPOINT sh healthcheck.sh
